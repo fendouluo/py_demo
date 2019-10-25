@@ -10,7 +10,8 @@ while a <= N:
 	tmp = float(input('Enter your the {} nuber: '.format(a)))
 	value = value + tmp
 	a = a + 1
-avg = value/N
+avg = value / N
 #print(avg)
+print('N = {}, Sum = {}'.format(N, value))
 print('avg is :{}'.format(avg))
 	
