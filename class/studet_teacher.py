@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 
+print("""
+一个类可以继承自多个类，具有父类的所有变量和方法，语法如下：
+class MyClass(Parentclass1, Parentclass2,...):
+    def __init__(self):
+        Parentclass1.__init__(self)
+        Parentclass2.__init__(self)
+        ...
+        ...
+""")
+
 class Person(object):
 	"""
 	返回具有给定名称的 Person 对象
